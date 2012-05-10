@@ -7,7 +7,7 @@
    * Licensed under the MIT license:
    *   http://www.opensource.org/licenses/mit-license.php
   */
-  var BOUNCE_FRICTION, BOUNCE_MOVE_FRICTION, CHANGE_PAGE_VELOCITY, CHECK_SIZE_RATE, EVENT_DOWN, EVENT_MOVE, EVENT_UP, FRAME_RATE, FRICTION, KineticScroll, MOVE_THRESHOLD, PAGINATED_FRICTION, PIXEL_RATIO, SCROLL_FADE_SPEED, SCROLL_PADDING, SCROLL_VISIBLE_OPACTITY, SCROLL_WIDTH, drawRoundRect, _ref;
+  var BOUNCE_FRICTION, BOUNCE_MOVE_FRICTION, CHANGE_PAGE_VELOCITY, CHECK_SIZE_RATE, EVENT_DOWN, EVENT_MOVE, EVENT_UP, FRAME_RATE, FRICTION, KineticScroll, PAGINATED_FRICTION, PIXEL_RATIO, SCROLL_FADE_SPEED, SCROLL_PADDING, SCROLL_VISIBLE_OPACTITY, SCROLL_WIDTH, drawRoundRect, _ref;
   var __bind = function(fn, me){ return function(){ return fn.apply(me, arguments); }; };
   drawRoundRect = function(ctx, sx, sy, ex, ey, r) {
     var r2d;
@@ -70,7 +70,6 @@
   SCROLL_WIDTH = 6;
   SCROLL_VISIBLE_OPACTITY = 0.5;
   SCROLL_FADE_SPEED = 120;
-  MOVE_THRESHOLD = 5;
   PIXEL_RATIO = window.devicePixelRatio || 1;
   if ('ontouchstart' in window) {
     EVENT_DOWN = 'touchstart';

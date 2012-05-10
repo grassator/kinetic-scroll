@@ -68,9 +68,6 @@ SCROLL_WIDTH = 6
 SCROLL_VISIBLE_OPACTITY = 0.5
 SCROLL_FADE_SPEED = 120 # ms
 
-# Number of pixels necessary before we consider this a move and not click
-MOVE_THRESHOLD = 5
-
 # Support high DPI displays
 PIXEL_RATIO = window.devicePixelRatio or 1
 
