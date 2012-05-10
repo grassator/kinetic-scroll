@@ -35,3 +35,11 @@ Options hash can be passed as optional second argument to the constructor contai
 - `onCurrentPageChange` — (default `null`) callback for current page change. Only used in paginated mode.
 
 To see the demo download or clone this repo and open `index.html` in a Webkit-based browser (like **Google Chrome** or **Safari**).
+
+## License
+
+Copyright (c) 2012 [Dmitriy Kubyshkin](kubyshkin.ru)
+
+Dual licensed under the MIT and GPL licenses:
+http://www.opensource.org/licenses/mit-license.php
+http://www.gnu.org/licenses/gpl.html
