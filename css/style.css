@@ -1,0 +1,94 @@
+@charset "utf-8";
+
+input, select, textarea {
+  margin: 0;
+  padding: 0;
+}
+
+input, textarea {
+  line-height: 1em;
+  font-size: 100%;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+textarea {
+  overflow: auto;
+  resize: none;
+}
+
+/* General styles */
+
+body {
+  font-size: 12px; 
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  padding: 10px 20px;
+  margin: 0;
+  background: #fff;
+  color: #333;
+}
+
+/* Specific styles */
+.container, .wrapper, .wrapper > li {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.container {
+  outline: 1px solid #ccc;
+  overflow: hidden;
+  width: 500px;
+  height: 300px;
+}
+
+.wrapper {
+  overflow: hidden;
+}
+
+#paginated, #horizontal {
+  white-space: nowrap;
+}
+
+#paginated .wrapper, #horizontal .wrapper {
+  display: inline-block;
+}
+
+#paginated .wrapper {
+  font-size: 0;
+}
+
+.wrapper > li {
+  width: 500px;
+  height: 300px;
+  background-color: #ccf;
+  color: #fff;
+  display: inline-block;
+  font-size: 50px;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  line-height: 300px;
+  text-align: center;
+}
+
+.wrapper > li:nth-child(2) {
+  background-color: #fcc;
+}
+
+#pager {
+  width: 500px;
+  margin: 10px 0 0 0;
+  text-align: center;
+}
+
+#pager > span {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  vertical-align: middle;
+  background-color: #eee;
+  border-radius: 5px;
+  margin: 0 5px;
+}
+
+#pager > span.current {
+  background-color: #333;
+}
